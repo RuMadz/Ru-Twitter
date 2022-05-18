@@ -1,1 +1,91 @@
 @import url('https://fonts.googleapis.com/css2?family=BIZ+UDMincho&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Rock+3D&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    background-color: black;
+}
+.navcon {
+    height: 100vh;
+    
+}
+.conlines {
+    border-right: rgb(72, 77, 88) solid;
+    border-width: 1px;
+    position: sticky;
+    left: 0;
+}
+
+.navcon > .logo {
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 2px;
+}
+.navbar {
+    transform: translateX(-15%);
+}
+
+.navbar-brand {
+    color: white;
+    padding: 12px;
+    font-size: 20px;
+}
+.navbar-brand:hover {
+    color: white;
+}
+.navbar-brand > .navtext {
+    margin-left: 20px;
+}
+.compose-tweet > .btn {
+    width: 90%;
+    background-color: #1C9BEF;
+    color: white;
+}
+.compose-tweet > .btn:hover {
+    background-color: #0c78c1;
+    color: white;
+}
+.compose-tweet > .btn {
+    transition-duration: 0.4s;
+}
+.container {
+    margin: 0 80px;
+}
+.container-fluid > .btn {
+    transition-duration: 0.4s;
+}
+  
+.container-fluid >.btn:hover {
+    background-color: rgb(22, 24, 28);
+    color: white;
+}
+.bottom-profile {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    width: 251px
+}
+.btmprofile > .row {
+    width: 230px;
+}
+.col > .btn {
+    transition-duration: 0.4s;
+}
+  
+.col >.btn:hover {
+    background-color: rgb(20, 23, 27);
+    color: white;
+}
+.btntext {
+    line-height: 1;
+    font-size: 18px;
+    /* margin: 0 6px; */
+    padding: 0;
+}
+.btmpropic {
+    margin: 0;
+}
+.eclipse {
+    transform: translateX(350%);
+}
+.ptext {
+    font-weight: 600;
+}
