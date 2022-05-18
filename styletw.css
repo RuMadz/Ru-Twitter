@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=BIZ+UDMincho&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Rock+3D&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* body */
 body {
     background-color: black;
+}
+/* header */
+.container {
+    padding: 0;
 }
 .navcon {
     height: 100vh;
@@ -18,6 +23,7 @@ body {
     padding-top: 10px;
     padding-bottom: 2px;
 }
+/* navigation */
 .navbar {
     transform: translateX(-15%);
 }
@@ -33,6 +39,15 @@ body {
 .navbar-brand > .navtext {
     margin-left: 20px;
 }
+.container-fluid > .btn {
+    transition-duration: 0.4s;
+}
+  
+.container-fluid >.btn:hover {
+    background-color: rgb(22, 24, 28);
+    color: white;
+}
+/* new tweet button */
 .compose-tweet > .btn {
     width: 90%;
     background-color: #1C9BEF;
@@ -45,17 +60,8 @@ body {
 .compose-tweet > .btn {
     transition-duration: 0.4s;
 }
-.container {
-    margin: 0 80px;
-}
-.container-fluid > .btn {
-    transition-duration: 0.4s;
-}
-  
-.container-fluid >.btn:hover {
-    background-color: rgb(22, 24, 28);
-    color: white;
-}
+
+/* bottom profile */
 .bottom-profile {
     position: absolute;
     bottom: 0;
@@ -77,7 +83,6 @@ body {
 .btntext {
     line-height: 1;
     font-size: 18px;
-    /* margin: 0 6px; */
     padding: 0;
 }
 .btmpropic {
