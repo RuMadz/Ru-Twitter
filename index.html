@@ -8,23 +8,28 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- My stylesheet -->
+    <!-- My stylesheets -->
     <link rel="stylesheet" href="/styletw.css">
+    <link rel="stylesheet" href="/responsive.css">
+
 </head>
 
 <body>
     <div class="container">
-        <div class="row">
-            <div class="col-sm-3 conlines">
-                <header role="banner" class="navcon">
-                    <div class="logo">
-                        <img src="/twitter-svg/bird.svg" alt="">
-                    </div>
-                    <nav class="navbar" style="background-color: black;">
-                        <div class="container-fluid">
+        <!-- side bar -->
+        <div class="sidebar-con">
+            <div class="navcon">
+                <div class="logo">
+                    <img src="/twitter-svg/bird.svg" alt="">
+                </div>
+                <nav class="navbar" style="background-color: black;">
+                    <ul>
+                        <div class="nav-items">
                             <button class="btn btn-sm btn-outline-secondary border-0 rounded-pill" type="button">
                                 <a class="navbar-brand" href="#">
                                     <img src="/twitter-svg/birdhouse.svg" alt="">
@@ -34,7 +39,8 @@
                                 </a>
                             </button>
                         </div>
-                        <div class="container-fluid">
+
+                        <div class="nav-items">
                             <button class="btn btn-sm btn-outline-secondary border-0 rounded-pill" type="button">
                                 <a class="navbar-brand" href="#">
                                     <img src="/twitter-svg/hashtag.svg" alt="">
@@ -44,7 +50,9 @@
                                 </a>
                             </button>
                         </div>
-                        <div class="container-fluid">
+
+
+                        <div class="nav-items">
                             <button class="btn btn-sm btn-outline-secondary border-0 rounded-pill" type="button">
                                 <a class="navbar-brand" href="#">
                                     <img src="/twitter-svg/bell.svg" alt="">
@@ -54,7 +62,9 @@
                                 </a>
                             </button>
                         </div>
-                        <div class="container-fluid">
+
+
+                        <div class="nav-items">
                             <button class="btn btn-sm btn-outline-secondary border-0 rounded-pill" type="button">
                                 <a class="navbar-brand" href="#">
                                     <img src="/twitter-svg/mail.svg" alt="">
@@ -64,7 +74,7 @@
                                 </a>
                             </button>
                         </div>
-                        <div class="container-fluid">
+                        <div class="nav-items">
                             <button class="btn btn-sm btn-outline-secondary border-0 rounded-pill" type="button">
                                 <a class="navbar-brand" href="#">
                                     <img src="/twitter-svg/bookmark.svg" alt="">
@@ -74,7 +84,7 @@
                                 </a>
                             </button>
                         </div>
-                        <div class="container-fluid">
+                        <div class="nav-items">
                             <button class="btn btn-sm btn-outline-secondary border-0 rounded-pill" type="button">
                                 <a class="navbar-brand" href="#">
                                     <img src="/twitter-svg/lists.svg" alt="">
@@ -84,7 +94,7 @@
                                 </a>
                             </button>
                         </div>
-                        <div class="container-fluid">
+                        <div class="nav-items">
                             <button class="btn btn-sm btn-outline-secondary border-0 rounded-pill" type="button">
                                 <a class="navbar-brand" href="#">
                                     <img src="/twitter-svg/person.svg" alt="">
@@ -94,7 +104,7 @@
                                 </a>
                             </button>
                         </div>
-                        <div class="container-fluid">
+                        <div class="nav-items">
                             <button class="btn btn-sm btn-outline-secondary border-0 rounded-pill" type="button">
                                 <a class="navbar-brand" href="#">
                                     <img src="/twitter-svg/circlewdots.svg" alt="">
@@ -104,44 +114,909 @@
                                 </a>
                             </button>
                         </div>
-                    </nav>
-                    <div class="compose-tweet">
-                        <button type="button" class="btn  btn-lg rounded-pill">Tweet</button>
-                    </div>
-                    <div class="bottom-profile">
-                        <div class="row align-items-end">
-                            <div class="col">
-                                <button class="btn btn-sm btn-outline-secondary border-0 rounded-pill" type="button">
-                                    <a class="navbar-brand" href="#">
-                                        <div class="btmprofile">
-                                            <div class="row">
-                                                <div class=" btmpropic">
-                                                    <i>
-                                                        <img src="/profile-pictures/output-onlinejpgtools.jpg"
-                                                            class="rounded-circle" alt="">
-                                                    </i>
-                                                </div>
-                                                <div class="col-4 btntext">
-                                                    <span class="ptext">Cass</span><br>
-                                                    <small class="text-muted">@Cass</small>
-                                                </div>
-                                                <div class="eclipse">
-                                                    <img src="/twitter-svg/3dots.svg" alt="">
-                                                </div>
+
+                    </ul>
+                </nav>
+                <div class="compose-tweet">
+                    <button type="button" class="btn  btn-lg rounded-pill">Tweet</button>
+                </div>
+                <div class="bottom-profile">
+                    <div class="row align-items-end">
+                        <div class="col">
+                            <button class="btn btn-sm btn-outline-secondary border-0 rounded-pill" type="button">
+                                <a class="navbar-brand" href="#">
+                                    <div class="btmprofile">
+                                        <div class="row">
+                                            <div class=" btmpropic">
+                                                <i>
+                                                    <img src="/profile-pictures/output-onlinejpgtools.jpg"
+                                                        class="rounded-circle" alt="">
+                                                </i>
+                                            </div>
+                                            <div class="col-4 btntext">
+                                                <span class="ptext">Cass</span><br>
+                                                <small class="text-muted">@Cass</small>
+                                            </div>
+                                            <div class="eclipse">
+                                                <img src="/twitter-svg/3dots.svg" alt="">
                                             </div>
                                         </div>
-                                    </a>
-                                </button>
+                                    </div>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- Main container -->
+        <div class="main-con">
+            <header role="banner" class="mc-top">
+                <div class="top-left">
+                    <div class="mob_pp">
+                        <img src="/profile-pictures/output-onlinejpgtools.jpg" class="rounded-circle" alt="">
+                    </div>
+                    <div class="btn mc-top-text">
+                        <p>
+                            <strong>Home</strong>
+                        </p>
+                    </div>
+                </div>
+                <div class="btn mc-icon-container" type="button">
+                    <div class="mc-top-icon">
+                        <img src="/twitter-svg/stars.svg" alt="">
+                    </div>
+                </div>
+            </header>
+            <div class="tweet-container">
+                <div class="tweet-w-pic">
+                    <div class="propic">
+                        <img src="/profile-pictures/output-onlinejpgtools.jpg" class="rounded-circle" alt="">
+                    </div>
+                    <div class="tweet-content">
+                        <div class="placeholder">
+                            What's happening?
+                        </div>
+                        <div class="tweet-options">
+                            <div class="icon-options">
+                                <div class="io-con">
+                                    <div class="io-size">
+                                        <img src="/twitter-svg/blue-img.svg" alt=""
+                                            style="width: 100%;  margin-left: 7px; margin-top: 4px;">
+                                    </div>
+                                </div>
+                                <div class="io-con">
+                                    <div class="io-size">
+                                        <img src="/twitter-svg/blue-gif.svg" alt=""
+                                            style="width: 100%; margin-left: 7px; margin-top: 4px;">
+                                    </div>
+                                </div>
+                                <div class="io-con">
+                                    <div class="io-size">
+                                        <img src="/twitter-svg/blue-bars.svg" alt=""
+                                            style="width: 100%;  margin-left: 7px; margin-top: 4px;">
+                                    </div>
+                                </div>
+                                <div class="io-con">
+                                    <div class="io-size">
+                                        <img src="/twitter-svg/blue-smilie.svg" alt=""
+                                            style="width: 100%;  margin-left: 7px; margin-top: 4px;">
+                                    </div>
+                                </div>
+                                <div class="io-con">
+                                    <div class="io-size">
+                                        <img src="/twitter-svg/blue-cal.svg" alt=""
+                                            style="width: 100%;  margin-left: 7px; margin-top: 4px;">
+                                    </div>
+                                </div>
+                                <div class="io-con">
+                                    <div class="io-size">
+                                        <img src="/twitter-svg/blue-location.svg" alt=""
+                                            style="width: 100%;  margin-left: 7px; margin-top: 4px;">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tweet-button">
+                                <button type="button" class="btn btn-primary btn-md rounded-pill"
+                                    disabled><strong>Tweet</strong> </button>
                             </div>
                         </div>
                     </div>
-                </header>
+                </div>
             </div>
-            <div class="col-lg">
-                Variable width content
+            <div class="post-con first-post">
+                <div class="topic">
+                    <div class="t-icon">
+                        <div class="t-icon-i">
+                            <img src="/twitter-svg/convo.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="topic-text">
+                        <span class="t-text">
+                            <strong>
+                                Anime & manga
+
+                            </strong>
+                        </span>
+                        <span> • </span>
+                        <span class="see">
+                            <strong>See more</strong>
+                        </span>
+                    </div>
+                </div>
+                <div class="bleach-post">
+                    <div class="propic">
+                        <img src="/profile-pictures/output-onlinejpgtools.jpg" class="rounded-circle" alt="">
+                    </div>
+                    <div class="post">
+                        <div class="profile-name">
+                            <div class="p-name-text">
+                                <span class="username"><strong>Dani | Bleach</strong></span>
+                                <span class="tag">@ichigod22 • </span>
+                                <span class="time"> 20h</span>
+                            </div>
+                            <div class="more-con">
+                                <div class="more-size">
+                                    <img src="/twitter-svg/grey-3dots.svg" alt=""
+                                        style="width: 100%;  margin-left: 7px; margin-top: 4px;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="caption">
+                            <span>What Anime character's death had you like this?</span>
+                        </div>
+                        <div class="img-con"></div>
+                        <div class="post-icons">
+                            <div class="pi-con-chat">
+                                <div class="chat-circle"></div>
+                                <div class="chat-i">
+                                    <img src="/twitter-svg/chat.svg" alt="">
+                                    <div class="numbers">23</div>
+                                </div>
+                            </div>
+                            <div class="pi-con-retweet">
+                                <div class="retweet-circle"></div>
+                                <div class="retweet-i">
+                                    <img src="/twitter-svg/retweet.svg" alt="">
+                                    <div class="numbers">3,974</div>
+                                </div>
+                            </div>
+                            <div class="pi-con-like">
+                                <div class="like-circle"></div>
+                                <div class="like-i">
+                                    <img src="/twitter-svg/heart.svg" alt="">
+                                    <div class="numbers">26k</div>
+                                </div>
+                            </div>
+                            <div class="pi-con-share">
+                                <div class="share-circle"></div>
+                                <div class="share-i">
+                                    <img src="/twitter-svg/share.svg" alt="">
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="post-con">
+                <div class="topic">
+                    <div class="t-icon">
+                        <div class="t-icon-i">
+                            <img src="/twitter-svg/retweet.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="topic-text">
+                        <span class="t-text">
+                            <strong>
+                                Hunter x Hunter retweeted
+                            </strong>
+                        </span>
+
+                    </div>
+                </div>
+                <div class="bleach-post">
+                    <div class="propic">
+                        <img src="/profile-pictures/hisoka.jpeg" class="rounded-circle" alt="">
+                    </div>
+                    <div class="post">
+                        <div class="profile-name">
+                            <div class="p-name-text">
+                                <span class="username"><strong>Hunter ❌ Hunter </strong></span>
+                                <span class="tag">@HxHSource • </span>
+                                <span class="time"> 1d</span>
+                            </div>
+                            <div class="more-con">
+                                <div class="more-size">
+                                    <img src="/twitter-svg/grey-3dots.svg" alt=""
+                                        style="width: 100%;  margin-left: 7px; margin-top: 4px;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="caption">
+                            <span>When you are reading the Hunter X Hunter manga, but it turns into a novel</span>
+                        </div>
+                        <div class="video-autoplay">
+                            <div class="vid">
+                                <video autoplay playsinline muted loop disablepictureinpicture=""
+                                    poster="https://pbs.twimg.com/ext_tw_video_thumb/1161241128043261954/pu/img/XI1P4YEtdbDDFSfR.jpg"
+                                    src="https://video.twimg.com/ext_tw_video/1161241128043261954/pu/pl/L0d2aJgf1_bnP56A.m3u8?variant_version=1&amp;tag=10"
+                                    type="application/x-mpegURL">
+                                </video>
+                            </div>
+                        </div>
+                        <div class="post-icons">
+                            <div class="pi-con-chat">
+                                <div class="chat-circle"></div>
+                                <div class="chat-i">
+                                    <img src="/twitter-svg/chat.svg" alt="">
+                                    <div class="numbers">23</div>
+                                </div>
+                            </div>
+                            <div class="pi-con-retweet">
+                                <div class="retweet-circle"></div>
+                                <div class="retweet-i">
+                                    <img src="/twitter-svg/retweet.svg" alt="">
+                                    <div class="numbers">3,974</div>
+                                </div>
+                            </div>
+                            <div class="pi-con-like">
+                                <div class="like-circle"></div>
+                                <div class="like-i">
+                                    <img src="/twitter-svg/heart.svg" alt="">
+                                    <div class="numbers">26k</div>
+                                </div>
+                            </div>
+                            <div class="pi-con-share">
+                                <div class="share-circle"></div>
+                                <div class="share-i">
+                                    <img src="/twitter-svg/share.svg" alt="">
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="post-con">
+                <div class="topic">
+                    <div class="t-icon">
+                        <div class="t-icon-i">
+                            <img src="/twitter-svg/retweet.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="topic-text">
+                        <span class="t-text">
+                            <strong>
+                                Hunter x Hunter retweeted
+                            </strong>
+                        </span>
+
+                    </div>
+                </div>
+                <div class="bleach-post">
+                    <div class="propic">
+                        <img src="/profile-pictures/hisoka.jpeg" class="rounded-circle" alt="">
+                    </div>
+                    <div class="post">
+                        <div class="profile-name">
+                            <div class="p-name-text">
+                                <span class="username"><strong>Hunter ❌ Hunter </strong></span>
+                                <span class="tag">@HxHSource • </span>
+                                <span class="time"> 2d</span>
+                            </div>
+                            <div class="more-con">
+                                <div class="more-size">
+                                    <img src="/twitter-svg/grey-3dots.svg" alt=""
+                                        style="width: 100%;  margin-left: 7px; margin-top: 4px;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="caption">
+                            <span>Vinland Saga's mangaka, Makoto Yukimura, shares his opinion on Hunter x Hunter:</span>
+                            <br>
+                            <span class="translate">Translate tweet</span>
+                        </div>
+                        <div class="quote-tweet">
+                            <div class="qt-con">
+                                <div class="qt-propic">
+                                    <img src="/profile-pictures/thorfinn.jpeg" class="rounded-circle" alt="">
+                                </div>
+                                <div class="profile-name">
+
+                                    <span class="tag">
+                                        <div class="profile-name">
+                                            <div class="r-p-name-text">
+                                                <span class="r-username"><strong> Makoto Yukimura </strong></span>
+                                                <span class="r-tag">@makotoyukimura •
+                                                </span>
+                                                <span class="r-time"> May 25</span> <br>
+
+                                            </div>
+
+                                        </div>
+                                    </span>
+
+
+                                </div>
+                            </div>
+
+                            <div class="response">Replying to @mateooo72</div>
+                            <div class="r-tweet">
+                                <div class="r-caption">
+                                    Hunter x Hunter is an amazing manga. I like the Chimera Ant chapter. I hope the
+                                    series will really resume.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="post-icons">
+                            <div class="pi-con-chat">
+                                <div class="chat-circle"></div>
+                                <div class="chat-i">
+                                    <img src="/twitter-svg/chat.svg" alt="">
+                                    <div class="numbers">23</div>
+                                </div>
+                            </div>
+                            <div class="pi-con-retweet">
+                                <div class="retweet-circle"></div>
+                                <div class="retweet-i">
+                                    <img src="/twitter-svg/retweet.svg" alt="">
+                                    <div class="numbers">3,974</div>
+                                </div>
+                            </div>
+                            <div class="pi-con-like">
+                                <div class="like-circle"></div>
+                                <div class="like-i">
+                                    <img src="/twitter-svg/heart.svg" alt="">
+                                    <div class="numbers">26k</div>
+                                </div>
+                            </div>
+                            <div class="pi-con-share">
+                                <div class="share-circle"></div>
+                                <div class="share-i">
+                                    <img src="/twitter-svg/share.svg" alt="">
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="post-con">
+                <div class="topic">
+                    <div class="t-icon">
+                        <div class="t-icon-i">
+                            <img src="/twitter-svg/retweet.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="topic-text">
+                        <span class="t-text">
+                            <strong>
+                                Hunter x Hunter retweeted
+                            </strong>
+                        </span>
+
+                    </div>
+                </div>
+                <div class="bleach-post">
+                    <div class="propic">
+                        <img src="/profile-pictures/hisoka.jpeg" class="rounded-circle" alt="">
+                    </div>
+                    <div class="post">
+                        <div class="profile-name">
+                            <div class="p-name-text">
+                                <span class="username"><strong>Hunter ❌ Hunter </strong></span>
+                                <span class="tag">@HxHSource • </span>
+                                <span class="time"> 2d</span>
+                            </div>
+                            <div class="more-con">
+                                <div class="more-size">
+                                    <img src="/twitter-svg/grey-3dots.svg" alt=""
+                                        style="width: 100%;  margin-left: 7px; margin-top: 4px;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="caption">
+                            <span>Vinland Saga's mangaka, Makoto Yukimura, shares his opinion on Hunter x Hunter:</span>
+                            <br>
+                            <span class="translate">Translate tweet</span>
+                        </div>
+                        <div class="quote-tweet">
+                            <div class="qt-con">
+                                <div class="qt-propic">
+                                    <img src="/profile-pictures/thorfinn.jpeg" class="rounded-circle" alt="">
+                                </div>
+                                <div class="profile-name">
+
+                                    <span class="tag">
+                                        <div class="profile-name">
+                                            <div class="r-p-name-text">
+                                                <span class="r-username"><strong> Makoto Yukimura </strong></span>
+                                                <span class="r-tag">@makotoyukimura •
+                                                </span>
+                                                <span class="r-time"> May 25</span> <br>
+
+                                            </div>
+
+                                        </div>
+                                    </span>
+
+
+                                </div>
+                            </div>
+
+                            <div class="response">Replying to @mateooo72</div>
+                            <div class="r-tweet">
+                                <div class="r-caption">
+                                    Hunter x Hunter is an amazing manga. I like the Chimera Ant chapter. I hope the
+                                    series will really resume.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="post-icons">
+                            <div class="pi-con-chat">
+                                <div class="chat-circle"></div>
+                                <div class="chat-i">
+                                    <img src="/twitter-svg/chat.svg" alt="">
+                                    <div class="numbers">23</div>
+                                </div>
+                            </div>
+                            <div class="pi-con-retweet">
+                                <div class="retweet-circle"></div>
+                                <div class="retweet-i">
+                                    <img src="/twitter-svg/retweet.svg" alt="">
+                                    <div class="numbers">3,974</div>
+                                </div>
+                            </div>
+                            <div class="pi-con-like">
+                                <div class="like-circle"></div>
+                                <div class="like-i">
+                                    <img src="/twitter-svg/heart.svg" alt="">
+                                    <div class="numbers">26k</div>
+                                </div>
+                            </div>
+                            <div class="pi-con-share">
+                                <div class="share-circle"></div>
+                                <div class="share-i">
+                                    <img src="/twitter-svg/share.svg" alt="">
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="post-con">
+                <div class="topic">
+                    <div class="t-icon">
+                        <div class="t-icon-i">
+                            <img src="/twitter-svg/retweet.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="topic-text">
+                        <span class="t-text">
+                            <strong>
+                                Hunter x Hunter retweeted
+                            </strong>
+                        </span>
+
+                    </div>
+                </div>
+                <div class="bleach-post">
+                    <div class="propic">
+                        <img src="/profile-pictures/hisoka.jpeg" class="rounded-circle" alt="">
+                    </div>
+                    <div class="post">
+                        <div class="profile-name">
+                            <div class="p-name-text">
+                                <span class="username"><strong>Hunter ❌ Hunter </strong></span>
+                                <span class="tag">@HxHSource • </span>
+                                <span class="time"> 2d</span>
+                            </div>
+                            <div class="more-con">
+                                <div class="more-size">
+                                    <img src="/twitter-svg/grey-3dots.svg" alt=""
+                                        style="width: 100%;  margin-left: 7px; margin-top: 4px;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="caption">
+                            <span>Vinland Saga's mangaka, Makoto Yukimura, shares his opinion on Hunter x Hunter:</span>
+                            <br>
+                            <span class="translate">Translate tweet</span>
+                        </div>
+                        <div class="quote-tweet">
+                            <div class="qt-con">
+                                <div class="qt-propic">
+                                    <img src="/profile-pictures/thorfinn.jpeg" class="rounded-circle" alt="">
+                                </div>
+                                <div class="profile-name">
+
+                                    <span class="tag">
+                                        <div class="profile-name">
+                                            <div class="r-p-name-text">
+                                                <span class="r-username"><strong> Makoto Yukimura </strong></span>
+                                                <span class="r-tag">@makotoyukimura •
+                                                </span>
+                                                <span class="r-time"> May 25</span> <br>
+
+                                            </div>
+
+                                        </div>
+                                    </span>
+
+
+                                </div>
+                            </div>
+
+                            <div class="response">Replying to @mateooo72</div>
+                            <div class="r-tweet">
+                                <div class="r-caption">
+                                    Hunter x Hunter is an amazing manga. I like the Chimera Ant chapter. I hope the
+                                    series will really resume.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="post-icons">
+                            <div class="pi-con-chat">
+                                <div class="chat-circle"></div>
+                                <div class="chat-i">
+                                    <img src="/twitter-svg/chat.svg" alt="">
+                                    <div class="numbers">23</div>
+                                </div>
+                            </div>
+                            <div class="pi-con-retweet">
+                                <div class="retweet-circle"></div>
+                                <div class="retweet-i">
+                                    <img src="/twitter-svg/retweet.svg" alt="">
+                                    <div class="numbers">3,974</div>
+                                </div>
+                            </div>
+                            <div class="pi-con-like">
+                                <div class="like-circle"></div>
+                                <div class="like-i">
+                                    <img src="/twitter-svg/heart.svg" alt="">
+                                    <div class="numbers">26k</div>
+                                </div>
+                            </div>
+                            <div class="pi-con-share">
+                                <div class="share-circle"></div>
+                                <div class="share-i">
+                                    <img src="/twitter-svg/share.svg" alt="">
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- mobile nav -->
+        <div class="mobile-nav">
+            <div class="nav-items">
+                <button class="btn btn-sm btn-outline-secondary border-0 rounded-pill" type="button">
+                    <a class="navbar-brand" href="#">
+                        <img src="/twitter-svg/birdhouse.svg" alt="">
+                    </a>
+                </button>
+            </div>
+            <div class="nav-items">
+                <button class="btn btn-sm btn-outline-secondary border-0 rounded-pill" type="button">
+                    <a class="navbar-brand" href="#">
+                        <img src="/twitter-svg/search.svg" alt="">
+                    </a>
+                </button>
+            </div>
+            <div class="nav-items">
+                <button class="btn btn-sm btn-outline-secondary border-0 rounded-pill" type="button">
+                    <a class="navbar-brand" href="#">
+                        <img src="/twitter-svg/bell.svg" alt="">
+                    </a>
+                </button>
+            </div>
+            <div class="nav-items">
+                <button class="btn btn-sm btn-outline-secondary border-0 rounded-pill" type="button">
+                    <a class="navbar-brand" href="#">
+                        <img src="/twitter-svg/mail.svg" alt="">
+                    </a>
+                </button>
+            </div>
+        </div>
+        <!-- trending -->
+        <div class="trending-sec">
+            <div class="search-bar-con ">
+                <div class="search-bar">
+                    <img src="/twitter-svg/search.svg" alt="">
+                    <div class="search">Search Twitter</div>
+                </div>
+
+            </div>
+            <div class="trend-con">
+
+                <div class="trending">
+
+                    <div class="trends-for-you">
+                        <div class="heading-tfy">
+                            Trends for you
+                        </div>
+                        <div class="trending-topic-container">
+                            <div class="trending-topic">
+                                <div class="topic-text">
+                                    <div class="trending-subtext">Trending in Ru Isle</div>
+                                    <div class="trending-title"><strong>One Piece</strong></div>
+                                    <div class="trending-subtext">1,222 Tweets</div>
+                                </div>
+                                <div class="more-con">
+                                    <div class="more-size">
+                                        <img src="/twitter-svg/grey-3dots.svg" alt=""
+                                            style="width: 100%;  margin-left: 7px; margin-top: 4px;">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="trending-topic-container">
+                            <div class="trending-topic">
+                                <div class="topic-text">
+                                    <div class="trending-subtext">Trending in Ru Isle</div>
+                                    <div class="trending-title"><strong>Chainsawman</strong></div>
+                                    <div class="trending-subtext">46,5k Tweets</div>
+                                </div>
+                                <div class="more-con">
+                                    <div class="more-size">
+                                        <img src="/twitter-svg/grey-3dots.svg" alt=""
+                                            style="width: 100%;  margin-left: 7px; margin-top: 4px;">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="trending-topic-container">
+                            <div class="trending-topic">
+                                <div class="topic-text">
+                                    <div class="trending-subtext">Trending in Ru Isle</div>
+                                    <div class="trending-title"><strong>JJK</strong></div>
+                                    <div class="trending-subtext">5,727 Tweets</div>
+                                </div>
+                                <div class="more-con">
+                                    <div class="more-size">
+                                        <img src="/twitter-svg/grey-3dots.svg" alt=""
+                                            style="width: 100%;  margin-left: 7px; margin-top: 4px;">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="trending-topic-container">
+                            <div class="trending-topic">
+                                <div class="topic-text">
+                                    <div class="trending-subtext">Trending in Ru Isle</div>
+                                    <div class="trending-title"><strong>Tokyo Revengers</strong></div>
+                                    <div class="trending-subtext">1,911 Tweets</div>
+                                </div>
+                                <div class="more-con">
+                                    <div class="more-size">
+                                        <img src="/twitter-svg/grey-3dots.svg" alt=""
+                                            style="width: 100%;  margin-left: 7px; margin-top: 4px;">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="trending-topic-container">
+                            <div class="trending-topic">
+                                <div class="topic-text">
+                                    <div class="trending-subtext">Trending in Ru Isle</div>
+                                    <div class="trending-title"><strong>Hunter X Hunter</strong></div>
+                                    <div class="trending-subtext">3,333 Tweets</div>
+                                </div>
+                                <div class="more-con">
+                                    <div class="more-size">
+                                        <img src="/twitter-svg/grey-3dots.svg" alt=""
+                                            style="width: 100%;  margin-left: 7px; margin-top: 4px;">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="trending-topic-container">
+                            <div class="trending-topic">
+                                <div class="topic-text">
+                                    <div class="trending-subtext">Trending in Ru Isle</div>
+                                    <div class="trending-title"><strong>User Un4v5s8bgsVk9Xp</strong></div>
+                                    <div class="trending-subtext">2,1M Tweets</div>
+                                </div>
+                                <div class="more-con">
+                                    <div class="more-size">
+                                        <img src="/twitter-svg/grey-3dots.svg" alt=""
+                                            style="width: 100%;  margin-left: 7px; margin-top: 4px;">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="trending-topic-container">
+                            <div class="trending-topic">
+                                <div class="topic-text">
+                                    <div class="trending-subtext">Trending in Ru Isle</div>
+                                    <div class="trending-title"><strong>Jojo</strong></div>
+                                    <div class="trending-subtext">73.3k Tweets</div>
+                                </div>
+                                <div class="more-con">
+                                    <div class="more-size">
+                                        <img src="/twitter-svg/grey-3dots.svg" alt=""
+                                            style="width: 100%;  margin-left: 7px; margin-top: 4px;">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="trending-topic-container">
+                            <div class="trending-topic">
+                                <div class="topic-text">
+                                    <div class="trending-subtext">Trending in Ru Isle</div>
+                                    <div class="trending-title"><strong>Solo Levelling</strong></div>
+                                    <div class="trending-subtext">2,553 Tweets</div>
+                                </div>
+                                <div class="more-con">
+                                    <div class="more-size">
+                                        <img src="/twitter-svg/grey-3dots.svg" alt=""
+                                            style="width: 100%;  margin-left: 7px; margin-top: 4px;">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="trending-topic-container">
+                            <div class="trending-topic">
+                                <div class="topic-text">
+                                    <div class="trending-subtext">Trending in Ru Isle</div>
+                                    <div class="trending-title"><strong>Eleceed</strong></div>
+                                    <div class="trending-subtext">255k Tweets</div>
+                                </div>
+                                <div class="more-con">
+                                    <div class="more-size">
+                                        <img src="/twitter-svg/grey-3dots.svg" alt=""
+                                            style="width: 100%;  margin-left: 7px; margin-top: 4px;">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="trending-topic-container">
+                            <div class="trending-topic">
+                                <div class="topic-text">
+                                    <div class="trending-subtext">Trending in Ru Isle</div>
+                                    <div class="trending-title"> <strong>Viral Hit</strong> </div>
+                                    <div class="trending-subtext">13k Tweets</div>
+                                </div>
+                                <div class="more-con">
+                                    <div class="more-size">
+                                        <img src="/twitter-svg/grey-3dots.svg" alt=""
+                                            style="width: 100%;  margin-left: 7px; margin-top: 4px;">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="trending-topic-more">
+                            <div class="trending-topic">
+                                <div class="topic-text">
+                                    <div class="trending-more">See more</div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="who-to-follow">
+                        <div class="heading-tfy">
+                            Who to follow
+                        </div>
+                        <div class="who-to-follow-container">
+                            <div class="follow-profile">
+                                <div class="propic">
+                                    <img src="/profile-pictures/luffy.jpeg" class="rounded-circle" alt="">
+                                </div>
+                                <div class="profile-info">
+                                    <div class="profile-names">
+                                        <div class="main-name">
+                                            <div class="trending-title"><strong>Luffy</strong></div>
+                                            <div class="verified">
+                                                <img src="/twitter-svg/verification.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="profile-tag">@pirateking</div>
+                                    </div>
+                                    <div class="follow-button-con">
+                                        <div class="follow-button">
+                                            <strong>Follow</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="who-to-follow-container">
+                            <div class="follow-profile">
+                                <div class="propic">
+                                    <img src="/profile-pictures/jiwoo.jpeg" class="rounded-circle" alt="">
+                                </div>
+                                <div class="profile-info">
+                                    <div class="profile-names">
+                                        <div class="main-name">
+                                            <div class="trending-title"><strong>Jiwoo</strong></div>
+
+                                        </div>
+                                        <div class="profile-tag">@kayden'sapprentice</div>
+                                    </div>
+                                    <div class="follow-button-con">
+                                        <div class="follow-button">
+                                            <strong>Follow</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="who-to-follow-container">
+                            <div class="follow-profile">
+                                <div class="propic">
+                                    <img src="/profile-pictures/gangjinho.jpeg" class="rounded-circle" alt="">
+                                </div>
+                                <div class="profile-info">
+                                    <div class="profile-names">
+                                        <div class="main-name">
+                                            <div class="trending-title"><strong>Gang Jinho</strong></div>
+                                            <div class="verified">
+                                                <img src="/twitter-svg/verification.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="profile-tag">@TheDemonicMaster</div>
+                                    </div>
+                                    <div class="follow-button-con">
+                                        <div class="follow-button">
+                                            <strong>Follow</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="trending-topic-more">
+                            <div class="trending-topic">
+                                <div class="topic-text">
+                                    <div class="trending-more">See more</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <footer class="terms">
+                        <span class="TsC">Terms of Service</span>
+                        <span class="TsC">Privacy Policy</span>
+                        <span class="TsC">Cookie Policy</span>
+                        <span class="TsC">Accessibility</span>
+                        <span class="TsC">Ads info</span>
+                        <span class="TsCm">More</span> •••
+                        <div class="copyright">© 2022 Twitter, Inc.</div>
+                    </footer>
+                </div>
             </div>
         </div>
     </div>
+
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

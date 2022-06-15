@@ -1,0 +1,143 @@
+@media screen and (max-width: 480px) {
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        
+    }
+    .container {
+        display: block;
+    }
+
+    .sidebar-con {
+        display: none;
+    }
+
+    .trending-sec {
+        display: none;
+    }
+    .trend-con {
+        display: none;
+    }
+
+    .search-bar-con {
+        display: none;
+    }
+
+    .tweet-container {
+        display: none;
+    }
+
+    .main-con {
+        border: 0;
+        height: auto;
+        min-width: 100%;
+
+    }
+
+    .mc-top {
+        max-width: 100%;
+        position: fixed;
+        top: 0;
+        display: flex;
+        align-items: center;
+        padding: 0 16px;
+
+    }
+
+    .top-left {
+        display: flex;
+    }
+
+    .mob_pp {
+        padding-right: 20px;
+        padding-top: 10px;
+    }
+
+    .mc-top-text>p {
+        color: white;
+        font-size: 17px;
+        padding-top: 15px;
+    }
+
+    .mobile-nav {
+        height: 53px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+        opacity: 80%;
+        position: fixed;
+        bottom: 0;
+    }
+
+    .bleach-post {
+        width: 480px;
+    }
+
+
+    .post {
+        max-width: 296px;
+        height: inherit;
+    }
+
+    .post-con {
+
+        max-width: 100%;
+        height: inherit;
+        border-bottom: solid 1px #2e2e2e;
+    }
+
+    .first-post {
+        max-width: 100%;
+        margin-top: 56px;
+    }
+
+    .caption {
+        max-width: 296px;
+        
+    }
+
+    .img-con {
+        max-width: 100%;
+        height: 240px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .video-autoplay {
+        max-width: 100%;
+        height: 395px;
+        background-size: 100%;
+    }
+
+    .quote-tweet {
+        max-width: 296px;
+    }
+
+    .r-caption {
+        max-width: 296px;
+    }
+    .quote-tweet {
+        height: 155px;
+    }
+
+    .topic {
+        width: 390px;
+
+    }
+
+    .p-name-text {
+        width: 80%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+
+
+}
